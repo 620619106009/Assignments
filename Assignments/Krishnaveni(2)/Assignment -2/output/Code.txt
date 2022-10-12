@@ -1,0 +1,11 @@
+import random
+while(True):
+a=random.randint(10,99)
+b=random.randint(10,99)
+if(a>35 and b>60):
+print("hightempratureand humidityof:",a,b,"%","alarm
+ison")
+elif(a<35 and b<60):
+print("Normal tempratureand humidityof:",a,b,"%","alarm
+is off")
+break
